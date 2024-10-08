@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
+import { useEffect, useState } from "react";
 
 export default function Header1({
   scroll,
@@ -11,13 +12,28 @@ export default function Header1({
   handlePopup,
   handleSidebar,
 }) {
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <>
       <header className={`main-header ${scroll ? "fixed-header" : ""}`}>
         {/* Header Top */}
         <div className="header-top">
           <div className="auto-container">
-            <div className="top-inner">
+            <div
+              className="top-inner"
+              style={{
+                display: isLargeScreen ? "block" : "none",
+              }}
+            >
               <ul className="info-list clearfix">
                 <li>
                   <i className="icon-1"></i>Mon - Fri 8:00 - 18:00 / Sunday 8:00
@@ -30,28 +46,6 @@ export default function Header1({
                 <li>
                   <img src="assets/images/icons/icon-1.png" alt="" /> 47 Bakery
                   Street, London, UK
-                </li>
-              </ul>
-              <ul className="social-links clearfix">
-                <li>
-                  <Link href="/">
-                    <i className="icon-4"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-5"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-6"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="icon-7"></i>
-                  </Link>
                 </li>
               </ul>
             </div>
