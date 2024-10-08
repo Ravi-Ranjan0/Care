@@ -30,8 +30,10 @@ export default function Footer1() {
                     </Link>
                   </figure>
                   <p>
-                    Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam
-                    eu turpis mostie dictum est a, mattis tellus.
+                    At CareTrotter, we believe in turning challenges into
+                    opportunities for growth. Let us help you unlock your
+                    practice's full potential with solutions that are as
+                    efficient as they are transformative.
                   </p>
                   <ul className="social-links clearfix">
                     <li>

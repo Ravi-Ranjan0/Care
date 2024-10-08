@@ -35,7 +35,7 @@ export default function Banner() {
                 Highest level of service you can find
               </span>
               <h2>
-                Take <span>Care of Your</span> Health Now.
+                <span>Empowering</span> Care;Wherever You Are !!
               </h2>
               <p>
                 CareTrotter embodies our mission of helping healthcare providers
