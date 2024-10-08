@@ -57,8 +57,8 @@ export default function about() {
             <div className="content_block_one">
               <div className="content-box ml_30">
                 <div className="sec-title mb_15">
-                  <span className="sub-title">About Us</span>
-                  <h2>Medical services & diagnostics</h2>
+                  <span className="sub-title">Our Vision</span>
+                  <h2>To revolutionize healthcare services globally,</h2>
                 </div>
                 <div className="text-box mb_40">
                   <h6>
@@ -66,11 +66,12 @@ export default function about() {
                     Services!
                   </h6>
                   <p>
-                    We provide comprehensive diagnostics and medical services
-                    tailored to meet your unique health needs. Our dedicated
-                    team ensures accurate results and timely care, so you can
-                    focus on what matters most—your health and well-being. Trust
-                    us to support you every step of the way.
+                    To revolutionize healthcare services globally, one clinic,
+                    one doctor, and one hospital at a time. CareTrotter
+                    envisions a future where healthcare providers are equipped
+                    with efficient, cost-effective solutions that maximize
+                    revenue, streamline operations, and enhance patient
+                    experiences.
                   </p>
                   <ul className="list-style-one clearfix">
                     <li>Ambulance Services</li>

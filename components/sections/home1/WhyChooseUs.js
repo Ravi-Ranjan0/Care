@@ -19,11 +19,19 @@ export default function chooseus() {
           <div className="col-lg-8 col-md-12 col-sm-12 content-column">
             <div className="content-box">
               <div className="sec-title light mb_50">
-                <span className="sub-title">Why Choose Us</span>
-                <h2>
+                <span className="sub-title">
                   Choose The Best For Your <br />
                   Health
-                </h2>
+                </span>
+                <h2>Our Mission</h2>
+                <p style={{ color: "white" }}>
+                  To simplify healthcare processes, empowering doctors, clinics,
+                  and hospitals worldwide to deliver the best care without
+                  worrying about operational hurdles. At CareTrotter, we’re
+                  committed to enhancing the efficiency and financial health of
+                  medical organizations through cutting-edge solutions tailored
+                  to your needs.
+                </p>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-6 col-md-6 col-sm-12 chooseus-block">

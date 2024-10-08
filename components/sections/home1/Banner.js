@@ -38,11 +38,12 @@ export default function Banner() {
                 Take <span>Care of Your</span> Health Now.
               </h2>
               <p>
-                At CareTrotter, we believe that quality healthcare should be
-                accessible, compassionate, and cutting-edge. Our platform
-                connects patients with innovative care solutions, ensuring that
-                every individual receives personalized attention and the best
-                possible outcomes..
+                CareTrotter embodies our mission of helping healthcare providers
+                "trot" around the complexities of their day-to-day processes,
+                moving efficiently through challenges with ease. The name
+                reflects our commitment to being a trusted partner, helping you
+                navigate the global healthcare landscape by optimizing your
+                administrative processes, no matter where you are.
               </p>
               <div className="btn-box">
                 <Link href="/#" className="theme-btn btn-two">

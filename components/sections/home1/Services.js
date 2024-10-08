@@ -32,11 +32,14 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details-3">Neurosurgery</Link>
+                    <Link href="service-details-3">
+                      Medical Scribing & Transcription
+                    </Link>
                   </h3>
                   <p>
-                    Expert care for neurological conditions with advanced
-                    surgical techniques.
+                    Our expert scribes and transcriptionists capture accurate
+                    medical records in real-time, reducing the documentation
+                    burden for healthcare providers...
                   </p>
                 </div>
               </div>
@@ -61,11 +64,14 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details-6">Modern Laboratory</Link>
+                    <Link href="service-details-6">
+                      Medical Billing & Coding
+                    </Link>
                   </h3>
                   <p>
-                    State-of-the-art lab providing accurate and timely
-                    diagnostic testing.
+                    We provide precise billing and coding solutions to ensure
+                    faster reimbursements and accurate claim submissions,
+                    optimizing your revenue cycle.
                   </p>
                 </div>
               </div>
@@ -90,11 +96,14 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details">Experienced Doctors</Link>
+                    <Link href="service-details">
+                      Healthcare Recruitment & Staffing
+                    </Link>
                   </h3>
                   <p>
-                    Skilled physicians dedicated to providing exceptional care
-                    and expertise.
+                    Our recruitment and staffing services help you find the
+                    right professionals for your practice, ensuring a seamless
+                    experience for both you and your patients.
                   </p>
                 </div>
               </div>
